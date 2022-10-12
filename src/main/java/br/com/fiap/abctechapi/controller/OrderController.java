@@ -2,7 +2,6 @@ package br.com.fiap.abctechapi.controller;
 
 import br.com.fiap.abctechapi.application.OrderApplication;
 import br.com.fiap.abctechapi.application.dto.OrderDto;
-import br.com.fiap.abctechapi.application.impl.OrderApplicationImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
