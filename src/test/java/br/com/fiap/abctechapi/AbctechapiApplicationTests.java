@@ -18,7 +18,10 @@ import static org.mockito.Mockito.when;
 
 @SpringBootTest
 class AbctechapiApplicationTests {
+<<<<<<< HEAD
 
+=======
+>>>>>>> 2716293d2a3b0ced7112e49221dbbcf5b1617ce3
 	@Test
 	void contextLoads() {
 	}

@@ -1,5 +1,8 @@
 package br.com.fiap.abctechapi.service;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 2716293d2a3b0ced7112e49221dbbcf5b1617ce3
 import br.com.fiap.abctechapi.model.Assistance;
 import br.com.fiap.abctechapi.repository.AssistanceRepository;
 import br.com.fiap.abctechapi.service.impl.AssistanceServiceImpl;
@@ -9,15 +12,24 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
+<<<<<<< HEAD
 import org.springframework.boot.test.context.SpringBootTest;
+=======
+>>>>>>> 2716293d2a3b0ced7112e49221dbbcf5b1617ce3
 
 import java.util.List;
 
 import static org.mockito.Mockito.when;
 
+<<<<<<< HEAD
 @SpringBootTest
 public class AssistanceServiceTest {
 
+=======
+public class AssistanceServiceTest {
+
+
+>>>>>>> 2716293d2a3b0ced7112e49221dbbcf5b1617ce3
     @Mock
     private AssistanceRepository assistanceRepository;
     private AssistanceService assistanceService;
@@ -52,4 +64,8 @@ public class AssistanceServiceTest {
         List<Assistance> values = assistanceService.getAssistanceList();
         Assertions.assertEquals(0, values.size());
     }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2716293d2a3b0ced7112e49221dbbcf5b1617ce3
 }
